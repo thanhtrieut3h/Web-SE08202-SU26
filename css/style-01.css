@@ -1,0 +1,23 @@
+/* cu phap comment trong css */
+/* tim hieu Selector trong css */
+/* universal selector */
+* {
+    /* selector se tac dong vao toan bo cac phan tu trong html */
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ID Selector */
+#title {
+    color: red;
+    font-style: italic;
+}
+/* class Selector */
+.title {
+    color: blue;
+}
+/* HTML selector (Tag selector)*/
+h1 {
+    color: yellow;
+}
+h2 {
+    color: violet;
+}

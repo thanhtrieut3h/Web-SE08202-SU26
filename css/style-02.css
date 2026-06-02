@@ -1,0 +1,69 @@
+header > h1.logo {
+    color: red;
+}
+header h1.logo {
+    color: violet;
+}
+
+h1.logo + p.title {
+    color: yellow;
+}
+h1.logo ~ h2.nav__content {
+    color: orange;
+}
+section > h3,h4,h5 {
+    color: blue;
+}
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid red;
+}
+input[type="number"] {
+    border: 2px solid blue;
+}
+a[href$=".net"] {
+    color: red;
+}
+a[href^="https"] {
+    color: yellow;
+}
+a[href*="fpi"] {
+    color: orange;
+}
+
+section.container :first-child, :last-child {
+    color: red;
+}
+section :nth-child(3){
+    color: yellow;
+}
+section :nth-last-child(2) {
+    color: pink;
+}
+section :first-of-type {
+    color: orange;
+}
+section :last-of-type {
+    color: green;
+}
+p.pagraph::before {
+    content: "Trieu";
+    color: rebeccapurple;
+    font-size: 20px;
+}
+p.pagraph::after {
+    content: "SE08202";
+    color: blueviolet;
+    font-size: 20px;
+}
+p.pagraph::selection {
+    color: yellow;
+    font-size: 20px;
+}
+p.pagraph::first-letter {
+    color: red;
+    font-size: 50px;
+}
+p.pagraph::first-line {
+    color: orange;
+}

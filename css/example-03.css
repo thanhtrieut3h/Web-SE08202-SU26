@@ -1,0 +1,63 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%; /* 1rem = 10px : theo ti le font chu*/
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.title {
+    /* color: red; */ /* hau nhu ko su dung */
+    color: #f60808; /* don vi mau sac duoc su dung chu yeu nhat */
+    font-size: 2rem;
+    font-variant: small-caps;
+}
+.btec {
+    /* color: rgb(0, 0, 255); */
+    color: rgb(10%, 35%, 70%);
+    font-size: 1.6rem;
+}
+section.box-content {
+    width: 30rem; /* 1rem = 10px*/
+    height: 30rem;
+    border: thin solid #f60808;
+    background-color: #13f0a7; /* mau nen */
+    background-image: url("../images/btec.svg"); /* anh nen */
+    background-repeat: no-repeat; /* khong lap lai anh nen */
+    /* background-size: 100%; */ /* dieu khien size anh nen */
+    background-position: center center;
+    /* Dieu khien vi tri hien thi cua anh nen */
+}
+section.primary-content {
+    width: 30rem;
+    height: 30rem;
+    border: thin solid #7d3df5;
+    margin-top: 2rem; /* cach le tren 20px */
+    /*
+    vung khong gian tu tinh tu duong vien cua phan tu di ra ngoai
+    noi dung phan tu => Margin
+    */
+    margin-left: 2rem;
+    /* padding: 1rem 0.5rem 1rem 1rem; */
+    /*
+    padding-left: 1rem;
+    padding-top: 1rem;
+    */
+    /*
+    vung khong gian tinh tu duong vien di vao ben trong noi dung cua
+    phan tu => Padding (dem)
+    */
+}
+p.content {
+    background-color: #18f804;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border: thin dotted red;
+}

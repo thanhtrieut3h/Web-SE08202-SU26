@@ -1,0 +1,50 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    /* su dung don vi rem : 1rem = 10px */
+    font-size: 62.5%;
+}
+body {
+    /* kich thuoc tinh theo ti le font chu - su dung rem */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    display: flex; 
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+}
+.box{
+    width: 30rem;
+    height: 30rem;
+    /* display: inline-block; */
+}
+.box-first {
+    background-color: #0deb65;
+}
+.box-second {
+    background-color: #6d5ef3;
+    position: relative;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.box-third {
+    background-color: #f15252;
+}
+a.link {
+    font-size: 16px;
+    display: block; /* chuyen the inline thanh block */
+    text-decoration: none;
+}
+.img {
+    position: absolute;
+    left: 32rem;
+    top: 20rem;
+}

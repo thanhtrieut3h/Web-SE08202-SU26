@@ -16,7 +16,7 @@ body {
 }
 .container{
     max-width: 98rem;
-    margin: 0 auto;
+    margin: 4rem auto;
     display: flex; 
     /* flex-direction: row-reverse; */
     flex-wrap: wrap;
@@ -47,4 +47,12 @@ a.link {
     position: absolute;
     left: 32rem;
     top: 20rem;
+}
+.nav {
+    width: 100%;
+    height: 4rem;
+    background-color: #706bf6;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
 }

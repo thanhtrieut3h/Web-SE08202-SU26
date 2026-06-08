@@ -26,3 +26,48 @@ ul li {
     border-top: 3px solid #f0f944;
     display: flex;
 }
+.container {
+    width: 98rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-item {
+    padding: 0px 2rem;
+    line-height: 4rem;
+    position: relative;
+}
+.nav-link {
+    color: #FD7437;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.nav-link:hover {
+    color: #e6ffff;
+}
+/* css dropdown menu table */
+.nav-table {
+    display: none;
+    min-width: 60rem;
+    background-color: #000000;
+}
+.nav-item:hover > .nav-table {
+    display: table;
+    position: absolute;
+    left: 0;
+    top: 3.7rem;
+}
+.nav-table > .nav-table-list {
+    display: table-row;
+    /* tag ul == row*/
+}
+.nav-table > .nav-table-list > .nav-item {
+    /* tag li == cell */
+    display: table-cell;
+}

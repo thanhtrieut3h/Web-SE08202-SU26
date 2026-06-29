@@ -45,3 +45,21 @@ const PI = 3.14;
 // 2 - string
 let className = "SE08202"; // kieu du lieu - chuoi
 // khi mot bien duoc gan tri va gia tri do nam trong " " hoac ' ' hoac ` ` thi se nhan kieu du lieu la string(chuoi).
+let mySubject = 'Website'; 
+let myAddress = `test@gmail.com`; // nen su dung thuong xuyen
+console.log(typeof(className, mySubject, myAddress));
+let myDat = ` day la doan van mau.
+              test don van`;
+// 3 - boolean : chi nhan 2 gia tri true hoac false
+let checking = true;
+let myCheck  = false;
+console.log(typeof(checking, myCheck));
+// 4 - undefined : khi bien chua duoc gan gia tri
+let myMoney;
+console.log(typeof(myMoney));
+// 5 - object (array, object ...) : tim hieu nhung buoi sau
+// 6 - kieu du lieu symbol : tao ra cacc gia tri khong trung lap
+let myID = Symbol("id");
+console.log(typeof(myID));
+// 7 - kieu null : khi bien duoc gan bang null
+let myEmail = null; // kieu null
